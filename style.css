@@ -21,11 +21,13 @@ margin: auto;
 
 .button1{
     text-align: center;
-    background-color: aquamarine;
-    width: 7rem;
-    border-radius: 10px;
+    background-color: rgb(42, 216, 158);
+    width: 10rem;
+    border-radius: 30px;
     list-style: none;
     margin-right: 70px;
+    padding: 0px, 29px;
+    cursor: pointer;
 }
 
 .text-button{
@@ -52,7 +54,7 @@ display: flex;
   }
 
   .icon img {
-    width: 150px; /* Ajusta esto según el tamaño de tus íconos */
+    width: 150px;
     height: auto;
   }
 
@@ -71,9 +73,15 @@ display: flex;
   }
 
   .text2{
-    color: black;
-    margin-left: 20rem;
-    margin-top: 8rem;
-    display: flex;
-    text-decoration: none;
-  }
+    position:absolute;
+    top: 1150px;
+    left: 21rem;
+}
+
+.img2{
+    position: absolute;
+    top: 1100px;
+  margin: 0 950px;
+  height: 25rem;
+  width: 35rem;
+}
