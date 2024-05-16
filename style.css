@@ -40,36 +40,40 @@ display: flex;
     color: black;
 }
 
-.anti-spam{
-    width: 100%;
+.icons-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-}
+    margin-top: 20px;
+  }
 
-.img2{
-    margin-right: 60rem;
-}
+  .icon {
+    margin: 0 70px;
+  }
 
-.img3{
-    margin-left: 5rem;
-    margin-top: -40rem
-}
+  .icon img {
+    width: 150px; /* Ajusta esto según el tamaño de tus íconos */
+    height: auto;
+  }
 
-.img4{
-    margin-left: 40rem;
-    margin-top: -600rem;
-}
+  .icon-description {
+    margin-right: 15px;
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+    margin-top: 5px;
+  }
 
-.text-spam1{
-    margin-right: 60rem;
-}
+  .icon-description1{
+   
+    text-align: center;
+    color: black;
+  }
 
-.text-spam2{
-    margin-right: -2rem;
-}
-
-.text-spam3{
-    margin-right: -40rem;
-}
+  .text2{
+    color: black;
+    margin-left: 20rem;
+    margin-top: 8rem;
+    display: flex;
+    text-decoration: none;
+  }
