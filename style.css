@@ -201,7 +201,7 @@ span{
 .end{
 display: flex; 
 align-items: center; 
-margin-top: -10px;
+margin-top: -60px;
 width: 100%;
 }
 .container_end{
@@ -212,39 +212,95 @@ width: 100%;
   transform: translate(-50%, -50%);
 }
 
-.contact-form {
-max-width: 500px;
-margin: auto;
-border-radius: 8px;
-margin-left: -30rem;
-}
-.form-control {
-margin-bottom: 10px;
-}
-.form-control label {
-display: block;
-color: #4cbb8d;
-margin-bottom: 5px;
+form {
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+  top: -40px;
+  left: -800px;
 }
 
-.form-control input,
-.form-control textarea {
-width: 100%;
-padding: 10px;
-border-radius: 5px;
-border: 1px solid #2a9d8f;
-background-color: transparent;
-color: white;
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
-.contact-form button{
-text-align: center;
-background-color: rgb(42, 216, 158);
-height: 2rem;
-width: 10rem;
-border-radius: 30px;
-list-style: none;
-margin-right: 70px;
-padding: 0px, 29px;
-cursor: pointer;
+.form-group {
+  width: 48%;
+  margin-right: 15%; 
+}
+
+.form-group:last-child {
+  margin-right: 500px; 
+}
+
+.form-input {
+  padding: 10px;
+  border: 2px solid rgb(0, 247, 164);
+  border-radius: 8px;
+  width: 100%;
+  font-size: 16px;
+  background-color: transparent;
+  color: #333;
+}
+
+textarea.form-input {
+  width: 220%;
+  height: 90px;
+  resize: vertical;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.submit-button {
+  background-color: rgb(0, 247, 164);
+  color: rgb(12, 12, 12);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 112%;
+}
+
+.submit-button:hover {
+  background-color:  rgb(0, 247, 164);
+}
+.Message{
+  color:rgb(0, 247, 164);
+}
+.text-button2{
+background-color: #0a1047;
+margin-left: -148.5rem;
+height: 4rem;
+width: 1920px;
+margin-top: 43.8rem;
+display: flex;
+color: #fff;
+text-decoration: none;
+}
+
+.p2{
+  display: flex;
+  justify-content: left;
+  position: relative;
+  left: 10%;
+  margin-top: 1%;
+}
+
+.img_end{
+  width: 30%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    left: 45%; 
+    border-radius: 50%;
+    margin-bottom: 1%;
+    margin-top: 1%;
 }
