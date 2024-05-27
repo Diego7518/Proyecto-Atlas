@@ -62,7 +62,7 @@
 
 .safe-soon > button{
   width: 10rem;
-  height: 2rem;
+  height: 3rem;
   color:antiquewhite;
   border-radius: 15px;
   background-color: rgb(22, 22, 22);
@@ -70,7 +70,8 @@
 
 .take-soon > button{
   width: 10rem;
-  height: 2rem;
+  text-align: center;
+  height: 3rem;
   color:antiquewhite;
   border-radius: 15px;
   background-color: rgb(22, 22, 22);
@@ -184,11 +185,11 @@
 }
   
 .brands-container{
+  background-color: color darkgrey;
   display: flex;
   justify-content:  center;
   height: 100%;
   height: auto;
-  background-color: color darkgrey;
   padding: 2rem;
   margin:0 ;
 }
@@ -275,7 +276,7 @@ label{
   
 .contact-button{
   width: 100%;
-  height: 2rem;
+  height: 3rem;
   border-radius: 15px;
   background:rgb(0, 255, 179);
 }
